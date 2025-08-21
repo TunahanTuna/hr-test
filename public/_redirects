@@ -1,1 +1,13 @@
 /*    /index.html   200
+/calendar    /index.html   200
+/dashboard   /index.html   200
+/projects    /index.html   200
+/projects/*  /index.html   200
+/entries     /index.html   200
+/new-entry   /index.html   200
+/reports     /index.html   200
+/admin       /index.html   200
+/web-list    /index.html   200
+/settings    /index.html   200
+/team        /index.html   200
+/debug       /index.html   200
