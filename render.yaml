@@ -13,5 +13,38 @@ services:
             value: nosniff
     routes:
       - type: rewrite
+        source: /entries
+        destination: /index.html
+      - type: rewrite
+        source: /calendar
+        destination: /index.html
+      - type: rewrite
+        source: /dashboard
+        destination: /index.html
+      - type: rewrite
+        source: /projects
+        destination: /index.html
+      - type: rewrite
+        source: /projects/*
+        destination: /index.html
+      - type: rewrite
+        source: /reports
+        destination: /index.html
+      - type: rewrite
+        source: /admin
+        destination: /index.html
+      - type: rewrite
+        source: /settings
+        destination: /index.html
+      - type: rewrite
+        source: /team
+        destination: /index.html
+      - type: rewrite
+        source: /web-list
+        destination: /index.html
+      - type: rewrite
+        source: /new-entry
+        destination: /index.html
+      - type: rewrite
         source: /*
         destination: /index.html
